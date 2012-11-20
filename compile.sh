@@ -1,2 +1,3 @@
-cd /Users/fer/entwicklung/jenkinstest/projekt2
+cd /Users/fer/entwicklung/jenkinstest/projekt3
 javac HelloWorld.java
+
