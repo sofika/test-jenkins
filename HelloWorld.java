@@ -8,6 +8,7 @@ class HelloWorld
 		System.out.println("Das soll gepusht werden3");
 		System.out.println("Das soll gepusht werden4");
 		System.out.println("Das soll gepusht werden5");
+		System.out.println("Das soll gepusht werden6");
 
 	}
 }
