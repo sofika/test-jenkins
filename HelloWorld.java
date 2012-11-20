@@ -4,7 +4,7 @@ class HelloWorld
 	{
 		System.out.println("Hello World");
 		System.out.println("Das ist branch2");
-		System.out.println("Das soll gepusht werden");
+		System.out.println("Das soll gepusht werden2");
 
 	}
 }
