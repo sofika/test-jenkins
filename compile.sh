@@ -1,4 +1,3 @@
 javac HelloWorld.java
-echo "jjjj" >>compile.sh
-
+echo "AAAA" >>x1.sh
 
