@@ -5,7 +5,6 @@ class HelloWorld
 		System.out.println("Hello World");
 		System.out.println("Hello World Projekt3");
 		System.out.println("Das ist eine Aenderung");
-		jjj
 
 	}
 }
