@@ -1,5 +1,6 @@
 <?php
 class User {
+    // Eine kleine 
     protected $name;
 
     public function getName() {
