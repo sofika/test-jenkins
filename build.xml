@@ -21,7 +21,7 @@
  <!-- That is a comment 11-->
  <target name="phpunit" description="Run unit tests using PHPUnit and generates junit.xml and clover.xml">
   <exec executable="phpunit" failonerror="true">
-  	<arg line="--testdox-html UserTest.html UserTest.php" />
+  	<arg line="--testdox-html ${basedir}/build/logs/UserTest.html --log-junit ${basedir}/build/logs/phpunit.xml UserTest.php" />
   </exec>
  </target>
 
@@ -82,6 +82,9 @@
    <arg line="-d ${source} -t ${basedir}/build/api" />
   </exec>
  </target>
+
+
+
 
  <target name="phpcb" description="Aggregate tool output with PHP_CodeBrowser">
   <exec executable="phpcb">
