@@ -24,6 +24,7 @@ class User {
     */
     protected $name;
 
+
 /**
  * get the name of a user
  *
